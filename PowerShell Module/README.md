@@ -65,37 +65,6 @@ Get-Command -Module MuhimbiPS_module
 | OCR-Document |Converting scans and images to searchable PDFs using PowerShell and server side OCR|
 | ConvertTo-PDFA |Convert a PDF File to a PDF/A compliant file|
 
-
-## How to use it
-<a id="HowToUseIt"></a> 
-
-### ConvertTo-PDF 
-
-Converts Office files to PDF Format using a Muhimbi Web Services based interface
-
-The following command line allows the conversion of a document to PDF:
-```powershell
-ConvertTo-PDF -FilePath C:\Users\clavin.fernandes\Desktop\somefile.docx
-```
-
-### Add-TextWatermark 
-
-```powershell
-Add-TextWatermark -FilePath C:\Users\clavin.fernandes\Desktop\somefile.PDF -Watermarkcontent "confidential" -FontFamilyName "Arial"  -HPosition Random -FontColor "#0000ff" -VPosition Random -FontStyle Bold -WatermarkWidth "500" -WatermarkHeight "500" -Rotation "-45" -Transparency "1.0" -FontSize "40"
-```
-
-### OCR-Document
-
-```powershell
-OCR-Document -FilePath C:\Users\clavin.fernandes\Downloads\somefile.jpg -OCRLanguage English
-```
-
-### ConvertTo-PDFA
-
-```powershell
-ConvertTo-PDFA -FilePath C:\Users\clavin.fernandes\Downloads\somefile.doc -PDFProfile PDF_A2B
-```
-
 ## Resources
 <a id="Resources"></a>
 
