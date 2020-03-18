@@ -15,9 +15,8 @@ Instead the sample uses the pre-generated proxy DLLs that ship alongside our sof
 
 ### ConvertTo-PDF 
 
-Converts Office files to PDF Format using a Muhimbi Web Services based interface
+Converts Office files to PDF Format using a Muhimbi Web Services based interface.
 
-The following command line allows the conversion of a document to PDF:
 ```powershell
 ConvertTo-PDF -FilePath C:\Users\clavin.fernandes\Desktop\somefile.docx
 ```
