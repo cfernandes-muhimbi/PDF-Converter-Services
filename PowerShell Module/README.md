@@ -43,7 +43,7 @@ Please make sure that a copy of the Muhimbi PDF Converter Services ([Download](h
 Open PowerShell as Administrator Navigate to Folder that contains the Download location for the file and Import the module.
 
 ```powershell
-Install-Module .\MuhimbiPS_module
+Import-Module .\MuhimbiPS_module
 ```
 
 ## Get Started
